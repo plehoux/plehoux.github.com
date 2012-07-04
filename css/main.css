@@ -164,21 +164,21 @@ div#content {
   padding: 1em;
 }
 h1 {
-  margin: 1em 0;
+  margin: 1em 0 0.3em;
   font-size: 3em;
   font-weight: 200;
   text-align: center;
   font-family: "ratio", sans-serif;
 }
-h1:after {
-  margin-top: 0.5em;
-  font-size: 0.4em;
-  display: block;
-  content: "plehoux@gmail.com";
+h2 {
+  font-size: 1em;
   font-family: "ratio", sans-serif;
   color: #4c4c4c;
   text-align: right;
   font-weight: 400;
+}
+h2:after {
+  content: " or plehoux@gmail.com";
 }
 h3 {
   font-family: "ratio", sans-serif;
@@ -217,8 +217,8 @@ dd {
   h1 {
     font-size: 2em;
   }
-  h1:after {
-    font-size: 0.5em;
+  h2 {
+    font-size: 0.8em;
   }
   h3 {
     font-size: 1.5em;
