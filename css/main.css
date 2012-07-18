@@ -158,7 +158,6 @@ a {
 }
 div#content {
   text-align: left;
-  min-width: 480px;
   width: 480;
   margin: 0 auto;
   padding: 1em;
@@ -210,8 +209,8 @@ dd {
 }
 @media screen and (max-width: 480px) {
   div#content {
-    min-width: 300px;
-    width: 300;
+    width: 90%;
+    padding: 0px;
   }
   h1 {
     font-size: 1.9em;
@@ -227,6 +226,6 @@ dd {
     font-size: 1.1em;
   }
   dd {
-    margin-left: 1em;
+    margin-left: 1.2em;
   }
 }
